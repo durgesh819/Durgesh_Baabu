@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">Hacker</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <h1>Hello, I'm <span>Durgesh</span></h1>
+    <p>Aspiring Web Developer | Frontend Enthusiast</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="images/profile.jpg" alt="Profile">
+      <div class="about-text">
+        <p>I am learning Frontend Development with HTML, CSS, and JavaScript. I love building interactive and responsive websites.</p>
+        <h3>Skills</h3>
+        <div class="skills">
+          <p>HTML</p>
+          <div class="progress"><div style="width:90%"></div></div>
+          <p>CSS</p>
+          <div class="progress"><div style="width:80%"></div></div>
+          <p>JavaScript</p>
+          <div class="progress"><div style="width:70%"></div></div>
+        </div>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>To-Do List</h3>
+        <p>A simple task management app using JS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Movie Search Website</h3>
+        <p>Fetch movie data using TMDB API.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal website to showcase skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Durgesh | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#">GitHub</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Twitter</a>
+    </div>
+    <button id="back-to-top">⬆</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
